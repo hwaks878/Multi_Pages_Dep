@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;700&family=Montserrat:wght@400;500;700&family=Orbitron:wght@400;700&family=Oswald:wght@400;500;700&family=Poppins:wght@400;500;700&family=Space+Mono:wght@400;700&family=Ubuntu+Mono:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  /* font-family: 'Merriweather Sans', sans-serif; */
+  /* font-family: 'Montserrat', sans-serif; */
+  /* font-family: "Orbitron", sans-serif; */
+  /* font-family: 'Oswald', sans-serif; */
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: "Space Mono", monospace;
+  /* font-family: 'Ubuntu Mono', monospace; */
+
+  font-size: 21px;
+}
+/* Creating the section from outside to inside */
+.hero {
+  /* background-color: #23424a; */
+  background-color: #cc0c00ff;
+  color: #fff;
+  padding: 100px 0;
+}
+.container {
+  width: 85%;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+.hero h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+.hero p,
+.promotion p {
+  max-width: 750px;
+  margin-bottom: 60px;
+}
+.hero-text {
+  width: 60%;
+}
+.btn-link {
+  /* background-color: #38cfd9; */
+  background-color: #00b5e2ff;
+  text-decoration: none;
+  color: black;
+  /* border: 2px solid #38cfd9; */
+  border: 2px solid #00b5e2ff;
+  border-radius: 100px;
+  padding: 10px 60px;
+}
+/* using flexbox */
+.row {
+  display: flex;
+  gap: 25px;
+}
+.col {
+  text-align: center;
+  width: 90%;
+}
+.col h2,
+.promotion h2 {
+  font-size: 36px;
+  color: #87629a;
+}
+.section-two {
+  /* background-color: #136c72; */
+  background-color: #cc0c00ff;
+  color: #fff;
+}
+.section-two-color h2 {
+  color: #fff;
+}
+.promotion {
+  background-color: #ffcd00ff;
+  padding: 50px 0;
+}
+.footer-text {
+  font-size: 14px;
+  margin-top: 50px;
+}
+a:hover,
+a:focus {
+  opacity: 0.5;
+}

@@ -1,0 +1,113 @@
+body {
+  background-color: #e8e6d9;
+}
+
+.spacing-top {
+  margin-top: 100px;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1100px;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  /* border: 3px solid pink; */
+}
+.hero-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-header {
+  padding-top: 50px;
+}
+
+.line-center {
+  border-bottom: 10px solid rgb(83, 163, 163);
+  border-radius: 10px;
+  width: 800px;
+  margin-left: 100px;
+  align-self: center;
+}
+.comments {
+  background-color: rgb(83, 163, 163);
+  color: #fff;
+  border: 5px solid rgb(83, 163, 163);
+  border-top-right-radius: 30px;
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 10px;
+  width: 15%;
+  align-self: flex-end;
+  /* margin-left: auto; */
+}
+
+.hero-car-img {
+  width: 650px;
+}
+.header-title {
+  align-self: flex-start;
+  font-size: 45px;
+  color: rgb(83, 163, 163);
+}
+.col-one {
+  width: 25%;
+}
+.col-two {
+  width: 40%;
+  margin: 0 50px;
+}
+.col-three {
+  width: 20%;
+  /* border: 2px solid pink; */
+}
+.col-three h2 {
+  color: rgb(187, 13, 13);
+}
+.col-one p,
+.col-two p {
+  text-indent: 20px;
+}
+.col-one h4,
+.col-two h4 {
+  font-size: 21px;
+}
+.vertical-line {
+  border-left: 2px solid grey;
+}
+.address p,
+.email p {
+  line-height: 5px;
+}
+.email {
+  margin: 50px 0;
+}
+.salad-title {
+  /* background-color: rgb(235, 231, 231); */
+  background-color: #e8e6d9;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 30px;
+  margin-top: 50px;
+}
+.salad-title h2 {
+  font-size: 3rem;
+  font-style: italic;
+}
+.salad-img {
+  width: 350px;
+}
+.salad-recipe {
+  text-align: left;
+  padding: 0px 25px;
+}
+.salad-recipe p {
+  text-indent: 0;
+}
+footer {
+  padding: 50px;
+  text-align: right;
+}
