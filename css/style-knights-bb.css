@@ -91,31 +91,42 @@ footer {
   }
   .odd-2 {
     grid-column-start: 2;
-    grid-row: 1 / span 2;
+    grid-row: 2 / span 2;
   }
   .odd-3 {
-    grid-row: 2 / span 2;
+    grid-row: 3 / span 2;
     grid-column-start: 3;
   }
   .odd-4 {
     grid-column-start: 3;
-    grid-row-start: 1;
+    grid-row-start: 2;
   }
   .odd-5 {
     grid-column-start: 2;
-    grid-row-start: 3;
+    grid-row-start: 4;
   }
   .inner-text {
     align-self: center;
   }
   .text-01 {
     grid-column: 1;
-    grid-row: 4;
+    grid-row: 1;
+  }
+  .text-02 {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .text-03 {
+    grid-column: 3;
+    grid-row: 1;
   }
   .non-visible {
     display: none;
   }
   .non-visible-solo {
     display: inline-block;
+    margin-top: 35px;
+    padding: 15px 55px;
+    font-size: 2rem;
   }
 }
