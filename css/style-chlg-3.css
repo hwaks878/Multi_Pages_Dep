@@ -20,13 +20,13 @@
   margin-bottom: 50px;
 }
 .link-btn {
-  font-size: 21px;
+  font-size: 14px;
   font-weight: bold;
   color: #23424a;
   border: 6px solid #38cfd9;
   border-radius: 25px;
   background-color: #38cfd9;
-  padding: 10px 35px;
+  padding: 0px 35px;
   text-decoration: none;
 }
 .more-links {
@@ -42,4 +42,16 @@
   grid-gap: 10px;
   grid-template-columns: repeat(auto-fit, minmax(200px, 250px));
   grid-auto-rows: 50px;
+}
+@media screen and (min-width: 768px) {
+  .link-btn {
+    font-size: 21px;
+    font-weight: bold;
+    color: #23424a;
+    border: 6px solid #38cfd9;
+    border-radius: 25px;
+    background-color: #38cfd9;
+    padding: 10px 35px;
+    text-decoration: none;
+  }
 }
