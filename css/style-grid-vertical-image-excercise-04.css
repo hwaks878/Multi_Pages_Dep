@@ -17,35 +17,7 @@ body {
   object-fit: cover;
   object-position: center;
 }
-.img-01 {
-  grid-column: 1;
-  grid-row: 1;
-}
 
-.img-02 {
-  grid-column: 2;
-  grid-row: 1 / span 3;
-}
-.img-03 {
-  grid-column: 3 / span 2;
-  grid-row: 1;
-}
-.img-04 {
-  grid-column: 3 / span 2;
-  grid-row: 2 / span 3;
-}
-.img-05 {
-  grid-column: 1;
-  grid-row: 2 / span 2;
-}
-.img-06 {
-  grid-column: 2;
-  grid-row: 4;
-}
-.img-07 {
-  grid-column: 1;
-  grid-row: 4;
-}
 /*Adding the text to overlay the image*/
 .card {
   position: relative;
@@ -100,4 +72,35 @@ body {
     rgba(0, 0, 0, 0) 50%
   );
   opacity: 0.5;
+}
+@media screen and (min-width: 768px) {
+  .img-01 {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .img-02 {
+    grid-column: 2;
+    grid-row: 1 / span 3;
+  }
+  .img-03 {
+    grid-column: 3 / span 2;
+    grid-row: 1;
+  }
+  .img-04 {
+    grid-column: 3 / span 2;
+    grid-row: 2 / span 3;
+  }
+  .img-05 {
+    grid-column: 1;
+    grid-row: 2 / span 2;
+  }
+  .img-06 {
+    grid-column: 2;
+    grid-row: 4;
+  }
+  .img-07 {
+    grid-column: 1;
+    grid-row: 4;
+  }
 }
