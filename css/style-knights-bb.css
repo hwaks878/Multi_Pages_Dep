@@ -94,12 +94,12 @@ footer {
     grid-row: 2 / span 2;
   }
   .odd-3 {
-    grid-row: 3 / span 2;
+    grid-row: 2 / span 2;
     grid-column-start: 3;
   }
   .odd-4 {
     grid-column-start: 3;
-    grid-row-start: 2;
+    grid-row-start: 4;
   }
   .odd-5 {
     grid-column-start: 2;
