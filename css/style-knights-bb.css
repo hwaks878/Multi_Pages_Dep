@@ -3,10 +3,6 @@ body {
   font-family: var(--font-montserrat);
 }
 
-.grid-nav-container {
-  margin: 0 auto;
-}
-
 /*Image gallery*/
 .gallery {
   margin-top: 50px;
@@ -34,6 +30,7 @@ body {
 li + li {
   padding-top: 15px;
 }
+/*Join us button*/
 .btn-link {
   font-size: 1rem;
   background-color: #ad7be9;
@@ -53,6 +50,7 @@ footer {
 .footer-text {
   color: #fff;
 }
+/*Don't display large Join Us button*/
 .non-visible-solo {
   display: none;
 }
@@ -62,14 +60,44 @@ footer {
   text-align: center;
   padding: 20px;
 }
-.nav-style div a {
+.nav-link {
   text-decoration: none;
   color: #fff;
 }
-@media screen and (min-width: 660px) {
+
+.grid-nav-container {
+  display: grid;
+  grid-template-columns: auto;
+  position: relative;
+}
+/*Menu icon*/
+.material-icons {
+  color: white;
+  font-size: 48px;
+}
+.logo-2 {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  z-index: 10;
+}
+/*Disable the Text Nav on Mobile */
+.nav-item {
+  display: none;
+}
+@media screen and (min-width: 650px) {
+  /* body {
+    background-color: red;
+  } */
   /*For Navigation*/
+  .nav-item {
+    display: block;
+  }
+  .logo-2 {
+    display: none;
+  }
   .grid-nav-container {
-    display: grid;
+    /* display: grid; */
     grid-template-columns: auto 1fr 1fr 1fr 1fr;
     grid-template-rows: 30px;
   }
@@ -80,8 +108,27 @@ footer {
     border-bottom-right-radius: 10px;
     padding: 10px;
   }
+  .nav-item-01 {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .nav-item-02 {
+    grid-column: 3;
+    grid-row: 1;
+  }
+  .nav-item-03 {
+    grid-column: 4;
+    grid-row: 1;
+  }
+  .nav-item-04 {
+    grid-column: 5;
+    grid-row: 1;
+  }
 }
 @media screen and (min-width: 820px) {
+  /* body {
+    background-color: green;
+  } */
   /*Change the gallery layout*/
   .grid-container {
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -121,9 +168,11 @@ footer {
     grid-column: 3;
     grid-row: 1;
   }
+  /*Don't display each section's join us button*/
   .non-visible {
     display: none;
   }
+  /*Display large Join Us button*/
   .non-visible-solo {
     display: inline-block;
     margin-top: 35px;
