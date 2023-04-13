@@ -6,15 +6,7 @@ body {
 .grid-nav-container {
   margin: 0 auto;
 }
-.nav-style {
-  font-size: 24px;
-  text-align: center;
-  padding: 20px;
-}
-.nav-style div a {
-  text-decoration: none;
-  color: #fff;
-}
+
 /*Image gallery*/
 .gallery {
   margin-top: 50px;
@@ -63,6 +55,16 @@ footer {
 }
 .non-visible-solo {
   display: none;
+}
+/*Navigation*/
+.nav-style {
+  font-size: 24px;
+  text-align: center;
+  padding: 20px;
+}
+.nav-style div a {
+  text-decoration: none;
+  color: #fff;
 }
 @media screen and (min-width: 660px) {
   /*For Navigation*/
