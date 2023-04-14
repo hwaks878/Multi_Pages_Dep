@@ -68,6 +68,10 @@ footer {
 .nav-item {
   display: none;
 }
+/* use for menu toggle */
+.nav-item.active {
+  display: block;
+}
 .grid-nav-container {
   display: grid;
   grid-template-columns: auto;
