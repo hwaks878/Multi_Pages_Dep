@@ -46,13 +46,15 @@ li + li {
 }
 footer {
   padding: 50px;
+  text-align: center;
 }
 .footer-text {
   color: #fff;
 }
-/*Don't display large Join Us button*/
+/*Display large Join Us button*/
 .non-visible-solo {
-  display: none;
+  font-size: 2rem;
+  text-align: center;
 }
 /*Navigation*/
 .nav-style {
@@ -180,11 +182,8 @@ footer {
   .non-visible {
     display: none;
   }
-  /*Display large Join Us button*/
+  /*large Join Us button in center slot*/
   .non-visible-solo {
-    display: inline-block;
-    margin-top: 35px;
-    padding: 15px 55px;
-    font-size: 2rem;
+    grid-column: 2;
   }
 }
