@@ -91,9 +91,9 @@ footer {
 }
 
 @media screen and (min-width: 650px) {
-  body {
+  /* body {
     background-color: red;
-  }
+  } */
   /*For Navigation*/
   .nav-item {
     display: block;
