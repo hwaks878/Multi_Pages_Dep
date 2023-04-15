@@ -2,7 +2,11 @@ body {
   background: #443c68;
   font-family: var(--font-montserrat);
 }
-
+.hero-text {
+  color: #fff;
+  text-align: center;
+  font-weight: bolder;
+}
 /*Image gallery*/
 .gallery {
   margin-top: 50px;
@@ -96,6 +100,9 @@ footer {
   /* body {
     background-color: red;
   } */
+  .hero-text {
+    margin-top: 50px;
+  }
   /*For Navigation*/
   .nav-item {
     display: block;
