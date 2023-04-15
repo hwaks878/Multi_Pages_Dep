@@ -2,9 +2,14 @@
   color: white;
 }
 .card-text {
+  font-size: 2rem;
   padding: 20px 0;
 }
 
+.card-text p {
+  font-size: 1rem;
+  padding-top: 15px;
+}
 .flip-card-inner {
   position: relative;
   width: 100%;
@@ -13,11 +18,7 @@
   transition: transform 0.8s;
   transform-style: preserve-3d;
 }
-@media screen and (min-width: 650px) {
-  .card-text {
-    font-size: 1.5rem;
-  }
-}
+
 @media screen and (min-width: 845px) {
   .flip-card {
     cursor: pointer;
@@ -61,7 +62,8 @@
     /* color: white; */
     transform: rotateY(180deg);
   }
-  .card-text {
-    font-size: 1.8rem;
+
+  .card-text p {
+    font-size: 1.5rem;
   }
 }
