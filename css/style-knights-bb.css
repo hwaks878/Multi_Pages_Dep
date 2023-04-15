@@ -1,6 +1,7 @@
 body {
   background: #443c68;
   font-family: var(--font-montserrat);
+  color: var(--color-white);
 }
 .hero-text {
   text-align: center;
@@ -31,7 +32,7 @@ body {
 .inner-text {
   background-color: #18122b;
   font-size: 2rem;
-  color: #fff;
+  /* color: #fff; */
   padding: 20px 10px;
   text-align: center;
 }
@@ -47,7 +48,7 @@ body {
 .btn-link {
   font-size: 1rem;
   background-color: #ad7be9;
-  color: #fff;
+  color: inherit;
   opacity: 0.7;
   text-decoration: none;
   padding: 10px 35px;
@@ -68,7 +69,7 @@ footer {
   text-align: center;
 }
 .footer-text {
-  color: #fff;
+  /* color: #fff; */
 }
 
 /*Navigation*/
@@ -79,7 +80,7 @@ footer {
 }
 .nav-link {
   text-decoration: none;
-  color: #fff;
+  color: inherit;
 }
 /*Disable the Text Nav on Mobile */
 .nav-item {
@@ -93,7 +94,7 @@ footer {
   /* background: #443c68; */
   /* background-color: #ad7be9; */
   opacity: 0.7;
-  padding: 50px 0;
+  padding: 35px 0;
 }
 .nav-item.active:hover {
   opacity: 1;
@@ -121,7 +122,7 @@ footer {
 }
 /*Menu icon*/
 .material-icons {
-  color: white;
+  color: var(--color-white);
   font-size: 48px;
 }
 .logo-hamburger {
@@ -140,7 +141,7 @@ footer {
   /*For Navigation*/
   .nav-style {
     font-size: 1.2rem;
-    text-align: right;
+    /* text-align: right; */
   }
   .nav-item {
     display: block;
@@ -154,8 +155,9 @@ footer {
   }
   .grid-nav-container {
     /* display: grid; */
-    grid-template-columns: auto 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: auto repeat(6, 1fr);
     grid-template-rows: 30px;
+    justify-content: space-evenly;
   }
 
   .accent-line {
@@ -182,6 +184,10 @@ footer {
   }
   .nav-item-05 {
     grid-column: 6;
+    grid-row: 1;
+  }
+  .nav-item-06 {
+    grid-column: 7;
     grid-row: 1;
   }
 }

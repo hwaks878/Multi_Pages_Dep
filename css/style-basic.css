@@ -21,7 +21,7 @@
   margin: 0;
   padding: 0;
 }
-
+/*Prevent mobile browsers from over scrolling*/
 html {
   overscroll-behavior: none;
 }
