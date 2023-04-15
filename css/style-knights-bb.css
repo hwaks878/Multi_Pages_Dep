@@ -101,17 +101,7 @@ footer {
   grid-template-columns: auto;
   position: relative;
 }
-/*Menu icon*/
-.material-icons {
-  color: white;
-  font-size: 48px;
-}
-.logo-2 {
-  position: absolute;
-  top: 20px;
-  right: 10px;
-  z-index: 10;
-}
+
 .overlay {
   height: 100%;
   width: 100%;
@@ -127,6 +117,17 @@ footer {
   overflow-x: hidden;
   transition: 0, 5s;
 }
+/*Menu icon*/
+.material-icons {
+  color: white;
+  font-size: 48px;
+}
+.logo-hamburger {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  z-index: 10;
+}
 @media screen and (min-width: 650px) {
   /* body {
     background-color: red;
@@ -137,11 +138,12 @@ footer {
   /*For Navigation*/
   .nav-item {
     display: block;
-  }
-  .nav-item:hover {
     opacity: 0.7;
   }
-  .logo-2 {
+  .nav-item:hover {
+    opacity: 1;
+  }
+  .logo-hamburger {
     display: none;
   }
   .grid-nav-container {
