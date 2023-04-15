@@ -2,7 +2,7 @@
   color: white;
 }
 .card-text {
-  padding: 10px;
+  padding: 20px 0;
 }
 
 .flip-card-inner {
@@ -61,8 +61,7 @@
     /* color: white; */
     transform: rotateY(180deg);
   }
-  /* .card-text {
-    font-size: 1.5rem;
-    padding: 0 20px;
-  } */
+  .card-text {
+    font-size: 1.8rem;
+  }
 }
