@@ -22,6 +22,9 @@
   padding: 0;
 }
 
+html {
+  overscroll-behavior: none;
+}
 .container {
   margin-inline: auto;
   padding-inline: 30px;
