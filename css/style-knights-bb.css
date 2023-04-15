@@ -73,7 +73,7 @@ footer {
 
 /*Navigation*/
 .nav-style {
-  font-size: 24px;
+  font-size: 1.5rem;
   text-align: center;
   padding: 20px 0;
 }
@@ -130,7 +130,7 @@ footer {
   right: 10px;
   z-index: 10;
 }
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 660px) {
   /* body {
     background-color: red;
   } */
@@ -139,6 +139,7 @@ footer {
   }
   /*For Navigation*/
   .nav-style {
+    font-size: 1.2rem;
     text-align: right;
   }
   .nav-item {
@@ -153,7 +154,7 @@ footer {
   }
   .grid-nav-container {
     /* display: grid; */
-    grid-template-columns: auto 1fr 1fr 1fr 1fr;
+    grid-template-columns: auto 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 30px;
   }
 
@@ -177,6 +178,10 @@ footer {
   }
   .nav-item-04 {
     grid-column: 5;
+    grid-row: 1;
+  }
+  .nav-item-05 {
+    grid-column: 6;
     grid-row: 1;
   }
 }

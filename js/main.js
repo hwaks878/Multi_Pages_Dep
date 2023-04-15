@@ -9,6 +9,7 @@ function openClose() {
     element.classList.toggle("active");
   }
   overLay.classList.toggle("active");
+  // display the close button if state is active
   if (overLay.classList.contains("active")) {
     iconChange.innerText = "close";
   } else {
