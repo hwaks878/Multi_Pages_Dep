@@ -45,16 +45,11 @@ body {
 }
 
 /*Join us button*/
-.btn-link,
-.cover-link {
+
+.btn-link {
   font-size: 1rem;
   opacity: 0.7;
   text-decoration: none;
-}
-.cover-link {
-  color: var(--color-white);
-}
-.btn-link {
   background-color: #ad7be9;
   color: inherit;
   padding: 10px 35px;
