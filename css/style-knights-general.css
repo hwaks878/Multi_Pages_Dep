@@ -51,3 +51,11 @@ body {
   color: transparent;
   -webkit-text-fill-color: transparent;
 }
+@media screen and (min-width: 660px) {
+  /* body {
+    background-color: red;
+  } */
+  .hero-text {
+    margin-top: 50px;
+  }
+}
