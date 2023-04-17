@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;700;900&display=swap");
+
+:root {
+  --main-bg-color: #e8e6e9;
+  --font-roboto: "Roboto", sans-serif;
+  --font-merriweather: "Merriweather", serif;
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-source-code: "Source Code Pro", monospace;
+  --font-700: 700;
+  --font-900: 900;
+  --color-smoke: #636969;
+  --color-white: #fff;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/*Prevent mobile browsers from over scrolling*/
+html {
+  overscroll-behavior: none;
+}
+.container {
+  margin-inline: auto;
+  padding-inline: 30px;
+  max-width: 1300px;
+}
+.accent-italic {
+  font-style: italic;
+}
+/*Specific for Knight Site*/
+body {
+  background: #443c68;
+  font-family: var(--font-montserrat);
+  color: var(--color-white);
+}
+.hero-text {
+  text-align: center;
+  font-weight: bolder;
+}
+.gradient-text {
+  /* creating the color gradient; clip means it is behind the text */
+  background-image: linear-gradient(45deg, #f3ec78, #af4261);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
