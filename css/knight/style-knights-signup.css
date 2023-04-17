@@ -4,6 +4,8 @@
 .signin h3 {
   font-size: 2rem;
   padding-top: 0.5em;
+}
+.center {
   text-align: center;
 }
 .existing-account {
@@ -26,7 +28,7 @@
   color: var(--color-white);
 }
 .policy-text {
-  padding: 3em 0;
+  padding: 2.5em 0;
 }
 .policy-text p {
   padding-top: 1em;
