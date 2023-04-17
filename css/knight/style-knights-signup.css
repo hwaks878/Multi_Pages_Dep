@@ -21,7 +21,7 @@
 .input-item + .input-item {
   padding-top: 1em;
 }
-.forgot-password {
+.forgot-pass-new {
   text-decoration: none;
   color: var(--color-white);
 }
