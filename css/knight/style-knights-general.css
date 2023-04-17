@@ -51,6 +51,20 @@ body {
   color: transparent;
   -webkit-text-fill-color: transparent;
 }
+/*Knight Style Buttons*/
+.btn-link {
+  font-size: 1rem;
+  opacity: 0.7;
+  text-decoration: none;
+  background-color: #ad7be9;
+  color: inherit;
+  padding: 10px 35px;
+  border-radius: 35px;
+}
+.btn-link:hover,
+.btn-link:focus {
+  opacity: 1;
+}
 @media screen and (min-width: 660px) {
   /* body {
     background-color: red;
