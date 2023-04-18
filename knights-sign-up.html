@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./css/knight/style-knights-menu-footer.css" />
     <link rel="stylesheet" href="./css/knight/style-knights-signup.css" />
     <script src="./js/knight/main.js" defer></script>
+    <script src="./js/knight/new-user.js" defer></script>
   </head>
   <body>
     <main>
@@ -90,7 +91,7 @@
                     <input
                       type="submit"
                       value="Login"
-                      class="btn-link no-border wider"
+                      class="btn-link no-border wider larger"
                     />
                   </p>
                 </form>
@@ -105,28 +106,31 @@
                   about the personal information collected on this site.
                 </p>
 
-                <p class="hidelater">
+                <p class="new-account-text">
                   <!-- <a href="" class="forgot-pass-new">Don't have an account?</a> -->
                   Don't have an account?
                 </p>
+                <button class="btn-link no-border wider larger" id="joinus">
+                  New Squire
+                </button>
               </div>
             </div>
             <div class="new-account">
               <!-- <p>Don't have an account?</p> -->
-              <div class="hidelater">
-                <h3 class="title center">Create New Account</h3>
+              <div class="new-account-signup">
+                <h3 class="title center form-signup">Create New Account</h3>
                 <form action="" style="padding-top: 1em">
-                  <label>First Name</label>
-                  <p class="input-ite">
+                  <label class="form-signup">First Name</label>
+                  <p class="form-signup input-ite">
                     <input type="text" class="input-field wider" />
                   </p>
 
-                  <label>Last Name</label>
-                  <p class="input-ite">
+                  <label class="form-signup">Last Name</label>
+                  <p class="form-signup input-ite">
                     <input type="text" class="input-field wider" />
                   </p>
-                  <label for="">Email</label>
-                  <p class="input-item">
+                  <label class="form-signup" for="">Email</label>
+                  <p class="form-signup input-item">
                     <input
                       type="email"
                       name=""
@@ -134,8 +138,8 @@
                       class="input-field wider"
                     />
                   </p>
-                  <label for="">Password</label>
-                  <p class="input-item">
+                  <label class="form-signup" for="">Password</label>
+                  <p class="form-signup input-item">
                     <input
                       type="password"
                       name=""
@@ -145,10 +149,14 @@
                   </p>
                 </form>
               </div>
-              <!-- <button class="btn-link no-border wider">
-                Create New Account
-              </button> -->
-              <button class="btn-link no-border wider">Join Us</button>
+
+              <p class="input-item">
+                <input
+                  type="submit"
+                  value="Join Us"
+                  class="btn-link no-border wider larger form-signup"
+                />
+              </p>
             </div>
           </div>
         </div>

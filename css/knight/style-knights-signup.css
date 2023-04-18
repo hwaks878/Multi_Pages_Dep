@@ -40,8 +40,17 @@
 .new-account p {
   padding: 1em 0;
 }
-.hidelater {
-  /* display: none; */
+.form-signup {
+  display: none;
+}
+.form-signup.active {
+  display: block;
+}
+#joinus {
+  margin-top: 1em;
+}
+.larger {
+  font-size: 1.5rem;
 }
 @media screen and (min-width: 660px) {
   /* body {
@@ -57,9 +66,18 @@
   .new-account {
     width: 88%;
   }
+  .new-account-text {
+    display: none;
+  }
+  .form-signup {
+    display: block;
+  }
   .signin h3 {
     /* font-size: 1.5rem; */
     text-align: left;
+  }
+  #joinus {
+    display: none;
   }
 }
 @media screen and (min-width: 845px) {
