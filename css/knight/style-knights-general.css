@@ -34,6 +34,12 @@ html {
 .accent-italic {
   font-style: italic;
 }
+.no-border {
+  border: none;
+}
+.wider {
+  width: 100%;
+}
 /*Specific for Knight Site*/
 body {
   background: #443c68;
