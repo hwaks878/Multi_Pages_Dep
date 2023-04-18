@@ -13,6 +13,8 @@
   width: 50px;
   display: block;
   text-align: left;
+  -webkit-filter: drop-shadow(1px 1px 1px #fff);
+  filter: drop-shadow(1px 1px 1px #fff);
 }
 /*Disable the Text Nav on Mobile */
 .nav-item {
