@@ -58,58 +58,100 @@
       <section class="signin">
         <div class="container">
           <!-- <h1 style="text-align: center">Sign Up Coming Soon</h1> -->
-          <div class="existing-account">
-            <h3 class="title center">Welcome Back</h3>
-            <div class="input-user">
-              <form action="">
-                <p class="input-item">
-                  <input
-                    type="email"
-                    placeholder="Email"
-                    required
-                    class="input-field wider"
-                  />
+          <div class="grid-container">
+            <div class="existing-account">
+              <h3 class="title center">Welcome Back</h3>
+              <div class="input-user">
+                <form action="">
+                  <label for="">Email</label>
+                  <p class="input-item">
+                    <input
+                      type="email"
+                      placeholder=""
+                      required
+                      class="input-field wider"
+                    />
+                  </p>
+                  <label for="">Password</label>
+                  <p class="input-item">
+                    <input
+                      type="password"
+                      placeholder=""
+                      required
+                      class="input-field wider"
+                    />
+                  </p>
+                  <p class="input-item">
+                    <a href="#" class="forgot-pass-new"
+                      >Forgot Your Password?</a
+                    >
+                  </p>
+                  <p class="input-item">
+                    <input
+                      type="submit"
+                      value="Login"
+                      class="btn-link no-border wider"
+                    />
+                  </p>
+                </form>
+              </div>
+              <div class="policy-text">
+                <p>
+                  By signing into my account, I agree to all relevant terms and
+                  conditions for this service.
                 </p>
-                <p class="input-item">
-                  <input
-                    type="password"
-                    placeholder="Password"
-                    required
-                    class="input-field wider"
-                  />
+                <p>
+                  See the <span><a href="#">Privacy Policy</a></span> to learn
+                  about the personal information collected on this site.
                 </p>
-                <p class="input-item">
-                  <a href="#" class="forgot-pass-new">Forgot Your Password?</a>
-                </p>
-                <p class="input-item">
-                  <input
-                    type="submit"
-                    value="Login"
-                    class="btn-link no-border wider"
-                  />
-                </p>
-              </form>
-            </div>
-            <div class="policy-text">
-              <p>
-                By signing into my account, I agree to all relevant terms and
-                conditions for this service.
-              </p>
-              <p>
-                See the <span><a href="#">Privacy Policy</a></span> to learn
-                about the personal information collected on this site.
-              </p>
 
-              <p>
-                <!-- <a href="" class="forgot-pass-new">Don't have an account?</a> -->
-                Don't have an account?
-              </p>
+                <p class="hidelater">
+                  <!-- <a href="" class="forgot-pass-new">Don't have an account?</a> -->
+                  Don't have an account?
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="new-account">
-            <!-- <h3 class="gradient-text">Create Account</h3> -->
-            <!-- <p>Don't have an account?</p> -->
-            <button class="btn-link no-border wider">Create New Account</button>
+            <div class="new-account">
+              <!-- <p>Don't have an account?</p> -->
+              <div class="hidelater">
+                <h3 class="title center">Create New Account</h3>
+                <form action="" style="padding-top: 1em">
+                  <label>First Name</label>
+                  <p class="input-ite">
+                    <input type="text" class="input-field wider" />
+                  </p>
+
+                  <label>Last Name</label>
+                  <p class="input-ite">
+                    <input type="text" class="input-field wider" />
+                  </p>
+                  <label for="">Email</label>
+                  <p class="input-item">
+                    <input
+                      type="email"
+                      name=""
+                      id=""
+                      class="input-field wider"
+                    />
+                  </p>
+                  <label for="">Password</label>
+                  <p class="input-item">
+                    <input
+                      type="password"
+                      name=""
+                      id=""
+                      class="input-field wider"
+                    />
+                  </p>
+                </form>
+              </div>
+              <button class="btn-link no-border wider">
+                Create New Account
+              </button>
+              <button class="btn-link no-border wider hidelater">
+                Join Us
+              </button>
+            </div>
           </div>
         </div>
       </section>

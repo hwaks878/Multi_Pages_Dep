@@ -13,6 +13,7 @@
   width: 50px;
   display: block;
   text-align: left;
+  /*adds shadow*/
   -webkit-filter: drop-shadow(1px 1px 1px #fff);
   filter: drop-shadow(1px 1px 1px #fff);
 }

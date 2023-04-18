@@ -2,26 +2,28 @@
   /* border: 2px solid green; */
 }
 .signin h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  /* font-size: 2rem; */
   padding-top: 0.5em;
 }
 .center {
   text-align: center;
 }
-.existing-account {
-}
+
 .input-field {
   height: 3em;
   border-radius: 0.75em;
 }
-.new-account {
-}
+
 .input-user {
   padding-top: 1em;
 }
-.input-item + .input-item {
-  padding-top: 1em;
+.input-item {
+  padding: 1em 0;
 }
+/* .input-item + .input-item {
+  padding-top: 1em;
+} */
 .forgot-pass-new {
   text-decoration: none;
   color: var(--color-white);
@@ -38,8 +40,33 @@
 .new-account p {
   padding: 1em 0;
 }
-
+.hidelater {
+  /* display: none; */
+}
 @media screen and (min-width: 660px) {
+  /* body {
+    background-color: brown;
+  } */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .existing-account {
+    width: 88%;
+  }
+  .new-account {
+    width: 88%;
+  }
+  .signin h3 {
+    /* font-size: 1.5rem; */
+    text-align: left;
+  }
 }
 @media screen and (min-width: 845px) {
+  /* body {
+    background-color: green;
+  } */
+  .signin h3 {
+    font-size: 2rem;
+  }
 }
