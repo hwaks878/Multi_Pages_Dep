@@ -13,6 +13,7 @@
   --font-900: 900;
   --color-smoke: #636969;
   --color-white: #fff;
+  --color-orange: orange;
 }
 *,
 *::before,
@@ -42,6 +43,10 @@ body {
 .hero-text {
   text-align: center;
   font-weight: bolder;
+}
+.title {
+  color: var(--color-orange);
+  opacity: 0.6;
 }
 .gradient-text {
   /* creating the color gradient; clip means it is behind the text */
