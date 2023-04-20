@@ -40,6 +40,9 @@
 .new-account p {
   padding: 1em 0;
 }
+.new-account-title {
+  display: none;
+}
 .form-signup {
   display: none;
 }
@@ -68,6 +71,9 @@
   }
   .new-account-text {
     display: none;
+  }
+  .new-account-title {
+    display: block;
   }
   .form-signup {
     display: block;
