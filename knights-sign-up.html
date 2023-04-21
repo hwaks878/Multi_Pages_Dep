@@ -12,8 +12,10 @@
     <link rel="stylesheet" href="./css/knight/style-knights-general.css" />
     <link rel="stylesheet" href="./css/knight/style-knights-menu-footer.css" />
     <link rel="stylesheet" href="./css/knight/style-knights-signup.css" />
+    <link rel="stylesheet" href="./css/knight/feature/style-modal.css" />
     <script src="./js/knight/main.js" defer></script>
     <script src="./js/knight/new-user.js" defer></script>
+    <script src="./js/knight/forgot.js" defer></script>
   </head>
   <body>
     <main>
@@ -161,6 +163,47 @@
                   class="btn-link no-border wider larger form-signup"
                 />
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="for-modals" class="for-modals overlay-forgot">
+        <div class="forgot-password-modal">
+          <div class="forgot-password-content">
+            <div class="forgot-password-form">
+              <div style="display: flex; justify-content: space-between">
+                <h3 class="title">Reset Password</h3>
+                <p>
+                  <a href="#" id="btn-close"
+                    ><span class="material-icons logo-close">close</span></a
+                  >
+                </p>
+              </div>
+
+              <form action="" method="" style="padding-top: 1em">
+                <p>
+                  Enter the email associated with your account and we will help
+                  reset your password.
+                </p>
+                <!-- <label for="">Email Address</label> -->
+                <p class="input-item">
+                  <input
+                    type="email"
+                    name=""
+                    id=""
+                    placeholder="Email ..."
+                    class="input-field wider"
+                  />
+                </p>
+                <p class="input-item">
+                  <input
+                    type="submit"
+                    value="Reset"
+                    required
+                    class="btn-link no-border wider"
+                  />
+                </p>
+              </form>
             </div>
           </div>
         </div>
