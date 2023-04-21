@@ -1,9 +1,10 @@
 function closeForgot() {
   let overLay = document.querySelector(".overlay-forgot");
-  let iconChange = document.querySelector(".logo-close");
+  // let iconChange = document.querySelector(".logo-close");
   let showForgot = document.querySelector(".forgot-password-modal");
   overLay.classList.toggle("active");
   showForgot.classList.toggle("active");
+  const btnClose = document.querySelector("#btn-close");
 
   //   console.log("close clicked");
 }

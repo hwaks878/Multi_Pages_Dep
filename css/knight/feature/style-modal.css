@@ -9,7 +9,7 @@
 .overlay-forgot.active {
   position: fixed;
   background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 1);
   overflow-x: hidden;
   transition: 0, 5s;
 }

@@ -1,6 +1,6 @@
 /*Navigation*/
 .nav-style {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   text-align: center;
   padding: 20px 0;
 }
@@ -47,7 +47,7 @@
 .overlay.active {
   position: fixed;
   background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 1);
   overflow-x: hidden;
   transition: 0, 5s;
 }

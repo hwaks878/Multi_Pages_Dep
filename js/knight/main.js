@@ -4,7 +4,7 @@ function openClose() {
   let overLay = document.querySelector(".overlay");
   let iconChange = document.querySelector(".logo-hamburger");
   let menuState = document.querySelectorAll(".nav-item");
-  console.log(iconChange.innerText);
+  // console.log(iconChange.innerText);
   for (let element of menuState) {
     element.classList.toggle("active");
   }
