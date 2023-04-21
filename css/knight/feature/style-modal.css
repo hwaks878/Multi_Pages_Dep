@@ -28,6 +28,20 @@
   display: block;
 }
 .forgot-password-content {
+  /* style="display: flex; justify-content: space-between" */
+  display: flex;
+  justify-content: space-between;
+}
+.title-name {
+  align-self: center;
+}
+.logo-close {
+  color: rgba(211, 99, 74, 0.8);
+  font-size: 24px;
+  opacity: 0.8;
+}
+.logo-close:hover {
+  color: var(--color-white);
 }
 .forgot-password-form {
   position: absolute;
@@ -46,6 +60,8 @@
 }
 .submit-btn {
   /* width: 100%; */
+}
+.material-icons {
 }
 @media screen and (min-width: 660px) {
   /* .forgot-password-form p {
