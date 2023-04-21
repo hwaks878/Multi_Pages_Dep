@@ -27,6 +27,7 @@
 .forgot-pass-new {
   text-decoration: none;
   color: var(--color-white);
+  font-weight: 700;
 }
 .policy-text {
   padding: 1.5em 0;
