@@ -3,7 +3,6 @@
 }
 .signin h3 {
   font-size: 1.5rem;
-  /* font-size: 2rem; */
   padding-top: 0.5em;
 }
 .center {
@@ -15,15 +14,10 @@
   border-radius: 0.75em;
 }
 
-.input-user {
-  padding-top: 1em;
-}
-.input-item {
+.input-item--space {
   padding: 1em 0;
 }
-/* .input-item + .input-item {
-  padding-top: 1em;
-} */
+
 .forgot-pass-new {
   text-decoration: none;
   color: var(--color-white);
@@ -69,6 +63,8 @@
   }
   .new-account {
     width: 88%;
+    border-left: 2px solid grey;
+    padding-left: 2.5em;
   }
   .new-account-text {
     display: none;
@@ -80,7 +76,6 @@
     display: block;
   }
   .signin h3 {
-    /* font-size: 1.5rem; */
     text-align: left;
   }
   #joinus {
