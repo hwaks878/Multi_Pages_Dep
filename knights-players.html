@@ -11,26 +11,19 @@
     />
     <link rel="stylesheet" href="./css/knight/style-knights-general.css" />
     <link rel="stylesheet" href="./css/knight/style-knights-menu-footer.css" />
+    <link rel="stylesheet" href="./css/knight/style-knights-player.css" />
 
     <script src="./js/knight/main.js" defer></script>
     <style>
-      section + section {
-        margin-top: 3em;
+      .grid-container {
+        display: grid;
+
+        grid-template-columns: repeat(autofit, minmax(150px, 350px));
       }
-      .iframe-container {
-        position: relative;
-        width: 100%;
-        padding-top: 56.25%;
-        overflow: hidden;
-      }
-      .iframe-content {
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        width: 100%;
-        height: 100%;
+      @media screen and (min-width: 660px) {
+        .grid-container {
+          /* grid-template-columns: 1fr 1fr; */
+        }
       }
     </style>
   </head>
@@ -127,11 +120,36 @@
         <section class="quarter">
           <div class="iframe-container">
             <iframe
-              src="https://www.thehoopsgeek.com/react-apps/RotationWidget?code=39JoYcY2hr"
-              scrolling="no"
+              src="https://www.thehoopsgeek.com/react-apps/RotationWidget?code=e0PPAjewBV"
               class="iframe-content"
             >
             </iframe>
+          </div>
+          <a
+            href="https://www.thehoopsgeek.com/basketball-rotation-app?code=e0PPAjewBV"
+            >Open and edit in the Rotation Planner App</a
+          >
+        </section>
+        <section class="quarter-breakdown">
+          <div class="grid-cont img-sets">
+            <!-- <img src="./images/rebels/q1-transp.png" alt="first quarter" />
+            <img src="./images/rebels/q2-transp.png" alt="second quarter" />
+            <img src="./images/rebels/q3-transp.png" alt="third quarter" />
+            <img src="./images/rebels/q4-transp.png" alt="fourth quarter" />
+            <img
+              src="./images/rebels/playing-time.png"
+              alt="total playing time"
+            /> -->
+            <img
+              src="./images/rebels/rotation-rebels.png"
+              alt="rotation schedule"
+              class="rotation"
+            />
+            <img
+              src="./images/rebels/play-time-rev2.png"
+              alt="breakdown"
+              class="playtime"
+            />
           </div>
         </section>
       </div>
